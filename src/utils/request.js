@@ -70,5 +70,6 @@ const request = async (url, options = {}, showLoading = true) => {
 }
 
 export {
-  request
+  request,
+  authRequest
 }
